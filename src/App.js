@@ -36,7 +36,7 @@ const handleClick = (imgURL)=>{
           <div id="thumbnails">{images}</div>
         </div>
         {/* THE SRC IMAGE URL SHOULD BE SET TO THE VALUE THAT IS STORED IN bigImage */}
-         <img src="" id="bigimage" alt='bigImage'/> 
+         <img src={bigImage} id="bigimage" alt='bigImage'/> 
       </div>
     </div>
   );
