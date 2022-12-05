@@ -19,7 +19,7 @@ const handleClick = (imgURL)=>{
   const images = imagesArr.map((image, index) => {
     return (
       <img
-        className={image.class}
+        className="thumb"
         src={image.img}
         alt={image.alt}
         onClick={() => handleClick(image.img)}
