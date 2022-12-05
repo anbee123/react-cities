@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-  color: #888888;
+  color: #6c2256;
 }
 
 p {
-  color: #666666;
+  color: #bd92af;
 }
 
 #wrapper {
@@ -31,6 +31,7 @@ p {
   height: 300px;
   width: 100%;
   object-fit: cover;
+  border: 5px #9a1c70;
 }
 
 .thumb {
@@ -41,4 +42,5 @@ p {
   display: block;
   cursor: pointer;
   object-fit: cover;
+  border: 3px #9a1c70;
 }
